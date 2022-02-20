@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/CSS/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="hidden" id="login-form">
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="What is your name?"
+      />
+      <button>Log In</button>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <h2 id="clock">00:00:00</h2>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <form id="todo-form">
+      <input type="text" placeholder="write a To Do and press Enter" required />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="weather"><span></span><span></span></div>
+
+    <a href="https://nomadcoders.co">Go to courses</a>
+    <script src="../static/JS/clock.js"></script>
+    <script src="../static/JS/greetings.js"></script>
+    <script src="../static/JS/quotes.js"></script>
+    <script src="../static/JS/background.js"></script>
+    <script src="../static/JS/todo.js"></script>
+    <script src="../static/JS/weather.js"></script>
+  </body>
+</html>
